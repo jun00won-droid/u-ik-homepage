@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>문의하기 | U-IK</title>
+<meta name="description" content="유익 주식회사(U-IK)에 부동산 개발사업 컨설팅을 문의하세요.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">U-IK</a>
+    <ul class="nav-links">
+      <li><a href="index.html">홈</a></li>
+      <li><a href="about.html">회사소개</a></li>
+      <li><a href="services.html">서비스</a></li>
+      <li><a href="contact.html" class="active">문의하기</a></li>
+    </ul>
+    <a href="contact.html" class="nav-cta">상담 문의</a>
+    <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow">CONTACT</div>
+    <h1>문의하기</h1>
+    <p>프로젝트 문의사항을 남겨주시면 담당자가 신속히 답변드립니다.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap contact-grid">
+
+    <div class="contact-info">
+      <div>
+        <div class="info-label">ADDRESS</div>
+        <p class="info-value">경기도 용인시 처인구 낙은로 100-31</p>
+      </div>
+      <div>
+        <div class="info-label">CONTACT</div>
+        <p class="info-value">Tel. 010.6325.4315<br>Email. U-IK-CO@naver.com</p>
+      </div>
+      <div>
+        <div class="info-label">BUSINESS HOURS</div>
+        <p class="info-value">평일 09:00 - 18:00<br>(주말 및 공휴일 휴무)</p>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <h3>온라인 문의</h3>
+      <form id="contactForm">
+        <div class="form-grid">
+          <div class="field">
+            <label for="name">이름</label>
+            <input type="text" id="name" name="name" placeholder="홍길동" required>
+          </div>
+          <div class="field">
+            <label for="company">회사명</label>
+            <input type="text" id="company" name="company" placeholder="회사명을 입력하세요">
+          </div>
+        </div>
+        <div class="form-grid">
+          <div class="field">
+            <label for="phone">연락처</label>
+            <input type="tel" id="phone" name="phone" placeholder="010-0000-0000" required>
+          </div>
+          <div class="field">
+            <label for="email">이메일</label>
+            <input type="email" id="email" name="email" placeholder="example@email.com" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="type">문의 유형</label>
+          <select id="type" name="type">
+            <option>지역주택조합</option>
+            <option>재개발 · 재건축</option>
+            <option>도시개발사업</option>
+            <option>기타 문의</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">문의 내용</label>
+          <textarea id="message" name="message" rows="6" placeholder="문의하실 내용을 입력해 주세요" required></textarea>
+        </div>
+        <label class="checkbox-field">
+          <input type="checkbox" required>
+          개인정보 수집 및 이용에 동의합니다.
+        </label>
+        <button type="submit" class="btn-gold form-submit">문의 보내기</button>
+        <p class="form-note" id="formNote">문의가 접수되었습니다. 빠른 시일 내에 담당자가 연락드리겠습니다.</p>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap footer-top">
+    <div>
+      <div class="footer-logo">U-IK</div>
+      <p>부동산 개발사업의 시작부터 완성까지<br>신뢰할 수 있는 파트너, 유익 주식회사</p>
+    </div>
+    <div>
+      <div style="font-size:13px; font-weight:700; letter-spacing:2px; color:#6FC3F7;">CONTACT</div>
+      <p>경기도 용인시 처인구 낙은로 100-31<br>Tel. 010.6325.4315 · Email. U-IK-CO@naver.com</p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 U-IK Co., Ltd. All rights reserved.</span>
+    <ul class="footer-links">
+      <li><a href="privacy.html">개인정보처리방침</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
